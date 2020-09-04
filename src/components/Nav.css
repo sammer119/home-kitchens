@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 110px;
+    position: sticky;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.nav > h2 {
+    font-size: 13px;
+}
