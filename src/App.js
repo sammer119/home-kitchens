@@ -1,20 +1,22 @@
 import React from 'react'
 import Header from './components/Header'
+import About from './components/About'
+import Customers from './components/Customers'
+import Gallery from './components/Gallery'
+import Footer from './components/Footer'
 
 function App() {
     return (
         <>
             <Header />
 
-            {/* Header */}
+            <About />
 
-            {/* About */}
+            <Customers />
 
-            {/* Customer Exp */}
+            <Gallery />
 
-            {/* Gallery */}
-
-            {/* Footer */}
+            <Footer />
         </>
     )
 }
